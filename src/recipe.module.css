@@ -1,0 +1,31 @@
+.recipe {
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgb(71, 71, 71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    align-items: center;
+    width: 45vw;
+    text-align: center;
+}
+
+.image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.list {
+    list-style: none;
+    padding: 10px;
+}
+
+.listItem {
+    font-size: 1.2rem;
+    margin: 5px;
+    color: lightcoral;
+    font-weight: bold;
+}
