@@ -4,4 +4,4 @@ export default {
 }
 
 // Used API: https://www.edamam.com/
-// After signing up, head to https://developer.edamam.com/admin/applications and then clikc view, you will find your ID and Key.
+// After signing up, head to https://developer.edamam.com/admin/applications and then click view, you will find your ID and Key.
