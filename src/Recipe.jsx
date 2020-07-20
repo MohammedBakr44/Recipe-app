@@ -8,7 +8,7 @@ const Recipe = ({ title, calories, image, ingredients }) => {
             <ol className={style.list}>
                 {ingredients.map(ingredient => (<li className={style.listItem}>{ingredient.text}</li>))}
             </ol>
-            <p>{calories}</p>
+            <p>Calories: <span className={style.cal}>{calories}</span></p>
             <img className={style.image} src={image} alt={title} />
         </div>
     );

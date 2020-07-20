@@ -7,8 +7,13 @@
     justify-content: space-around;
     background-color: #fff;
     align-items: center;
-    width: 45vw;
+    min-width: 45vw;
     text-align: center;
+}
+
+h1 {
+    margin: 15px;
+    padding: 10px;
 }
 
 .image {
@@ -28,4 +33,10 @@
     margin: 5px;
     color: lightcoral;
     font-weight: bold;
+    word-wrap: break-word;
+}
+
+.cal {
+    color: green;
+    font-size: 16px;
 }
